@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    margin-top: 60px;
+   display: flex;
+   justify-content: center;
+   height: 600px;
+
+  
+    width: 40%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+}
+
+.picture-box {
+    max-width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+}
+
+img {
+    /* max-width: 100%; */
+
+}
+
+
+
+
+
+
+
+
+.article-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    /* display:grid ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 20% 20% 15% 10%; */
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+
+/* .perfume {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+} */
+
+h1 {
+    /* grid-row: 2 / 3;
+    grid-column: 1 / 2; */
+    text-align: center;
+
+}
+
+article {
+    /* /* grid-row: 3 / 4;
+    grid-column: 1 / 2; */
+    text-align: center;
+    text-align: justify;
+}
+.sp {
+    /* grid-row: 4 / 5;
+    grid-column: 1 / 2; */
+    display: flex;
+    gap: 2rem;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+}
+
+sp-1 {
+    color: green;
+    font-size: 25px;
+}
+
+sp-2 {
+    font-size: 2rem ;
+}
+
+
+
+
+.button {
+    /* grid-row: 5 / 6;
+    grid-column: 1 / 2; */
+    width: 70%;
+    background-color: green ;
+    height: 4rem;
+    color: white;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
